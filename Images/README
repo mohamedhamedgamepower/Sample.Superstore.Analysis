@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,101 +11,57 @@
             max-width: 1000px;
             margin: auto;
             padding: 30px;
-            background-color:#f5f7fa;
-            color:#333;
-        }
-
-        .container{
-            background:white;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 0 20px rgba(0,0,0,.1);
-        }
-
-        h1,h2{
-            color:#1f4e79;
-        }
-
-        img{
-            width:100%;
-            border-radius:10px;
-            margin-top:20px;
-            box-shadow:0 0 15px rgba(0,0,0,.15);
-        }
-
-        ul{
-            line-height:1.8;
+            background: #f5f7fa;
+            color: #333;
         }
 
         .card{
-            background:#f8f9fa;
-            padding:20px;
-            border-radius:10px;
-            margin-bottom:20px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            margin-bottom: 20px;
+        }
+
+        h1,h2{
+            color: #1f4e79;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 10px;
         }
     </style>
-
 </head>
 
 <body>
 
-<div class="container">
-
+<div class="card">
     <h1>📊 Sample Superstore Sales Analysis</h1>
 
-    <div class="card">
-        <h2>📌 Project Overview</h2>
-        <p>
-            This project analyzes retail sales data using the Sample Superstore dataset
-            to identify sales trends, profitable products, customer behavior,
-            and business opportunities.
-        </p>
-    </div>
+    <p>
+        Analyzed the Sample Superstore dataset using Microsoft Excel and Pivot Tables
+        to identify sales trends, top-performing products, customer behavior,
+        and profitability drivers, providing actionable business insights and recommendations.
+    </p>
+</div>
 
-    <div class="card">
-        <h2>🛠 Tools Used</h2>
-        <ul>
-            <li>Microsoft Excel</li>
-            <li>Pivot Tables</li>
-            <li>Pivot Charts</li>
-            <li>Dashboard Design</li>
-        </ul>
-    </div>
+<div class="card">
+    <h2>🛠 Tools Used</h2>
+    <ul>
+        <li>Microsoft Excel</li>
+        <li>Pivot Tables</li>
+        <li>Pivot Charts</li>
+        <li>Dashboard Design</li>
+    </ul>
+</div>
 
-    <div class="card">
-        <h2>📷 Dashboard Preview</h2>
+<div class="card">
+    <h2>📷 Dashboard Preview</h2>
 
-        <img src="Images/Dashboard.png" alt="Dashboard">
-
-    </div>
-
-    <div class="card">
-        <h2>🔍 Key Insights</h2>
-        <ul>
-            <li>Binders, Paper and Furnishings were among the most profitable products.</li>
-            <li>November, December and September generated the highest sales volume.</li>
-            <li>Orders without discounts achieved better profitability.</li>
-            <li>Top customers generated a significant portion of total sales.</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>💡 Business Recommendations</h2>
-        <ul>
-            <li>Reduce unnecessary discounts.</li>
-            <li>Increase marketing activities during peak sales months.</li>
-            <li>Focus on highly profitable products.</li>
-            <li>Improve performance in low-performing states.</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>👨‍💻 Author</h2>
-        <p>Mohamed Hamed - Aspiring Data Analyst</p>
-    </div>
+    <img src="Images/Dashboard.png" alt="Dashboard">
 
 </div>
 
 </body>
 </html>
-```
